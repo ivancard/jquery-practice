@@ -1,0 +1,27 @@
+body {
+  background-image: url(../Img/hojas.jpg);
+  background-attachment: fixed;
+}
+
+header .logo {
+  background-color: #235e3d;
+}
+
+.menu ul li:hover {
+  background-color: #235e3d;
+}
+.button-more {
+  background-color: #235e3d;
+}
+.nombre {
+  border-bottom: 3px solid #235e3d;
+}
+.ui-state-active {
+  background: #235e3d;
+  border: 1px solid #1d4d31;
+}
+.ui-state-active:focus,
+.ui-state-active:active {
+  outline: none;
+  border: 1px solid #1d4d31;
+}

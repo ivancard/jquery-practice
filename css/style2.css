@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.clearFix {
+  float: none;
+  clear: both;
+}
+
+.global {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px rgb(128, 128, 128);
+}
+
+header .logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  width: 385px;
+  height: 80px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.menu {
+  font-family: Helvetica, Arial;
+  background-color: #333;
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  line-height: 46px;
+}
+.menu ul li {
+  height: 46px;
+  display: inline-block;
+  transition: all 300ms;
+}
+
+.menu a {
+  font-size: 0.8rem;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.posts {
+  width: 60%;
+  float: left;
+  font-family: Helvetica, sans-serif;
+}
+
+.articulo {
+  padding: 7px;
+  border-bottom: 1px solid #ccc;
+}
+
+.articulo h2 {
+  font-size: 25px;
+  color: #333;
+}
+.articulo .date {
+  font-size: 0.8rem;
+  display: block;
+  color: gray;
+  margin-top: 5px;
+}
+
+.articulo p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.button-more {
+  display: block;
+  width: 90px;
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 10px 5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.aside {
+  font-family: Helvetica, sans-serif;
+  width: 31%;
+  float: right;
+}
+
+.aside h4 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+  background: url(../Img/lines.png) repeat-x;
+}
+
+.aside h4 span {
+  background-color: white;
+  padding: 8px;
+}
+
+.aside img {
+  width: 100%;
+}
+.aside p {
+  font-size: 13px;
+  text-align: justify;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+form select,
+form input[type="date"] {
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #eee;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  color: #333;
+  cursor: pointer;
+}
+
+form input[type="submit"]:focus {
+  outline: none;
+}
+
+.footer {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  height: 47px;
+  font-size: 0.8rem;
+  background: rgba(51, 51, 51, 0.7);
+  margin: 0 auto;
+  width: 65%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  line-height: 47px;
+  text-align: center;
+}
+
+.bx-viewport {
+  height: 300px !important;
+}
+.bx-wrapper {
+  height: 310px !important;
+}
+
+.selector-theme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  position: fixed;
+  top: 40%;
+  background-color: rgba(51, 51, 51, 0.5);
+  width: 50px;
+  height: 100px;
+}
+
+.to-green,
+.to-red,
+.to-blue {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgba(206, 206, 206, 0.555);
+}
+
+.to-green {
+  background-color: #235e3d;
+  cursor: pointer;
+}
+.to-red {
+  background-color: #ca3413;
+  cursor: pointer;
+}
+.to-blue {
+  background-color: #1f87c4;
+  cursor: pointer;
+}
+
+.subir {
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: right;
+}
+
+.nombre {
+  display: block;
+  font-size: 1rem;
+  margin-top: 15px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#logOut {
+  text-decoration: none;
+  color: currentColor;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-left: 5px;
+}
+#logOut:hover {
+  color: #aaa;
+}
+.box {
+  width: 60%;
+  float: left;
+  margin-top: 40px;
+}
+
+.box h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 0.4em;
+}
+
+.ui-widget {
+  font-family: Helvetica, sans-serif;
+}
+
+.reloj {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  color: #333;
+  text-align: center;
+  border: 5px dashed #333;
+  width: 50%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.form_contact {
+  font-family: Helvetica, sans-serif;
+  width: 60%;
+  margin-top: 15px;
+}
+
+.form_contact label {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+.form_contact input[type="submit"]:hover {
+  background: #ddd;
+}

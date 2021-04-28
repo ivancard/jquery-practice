@@ -1,0 +1,27 @@
+body {
+  background-image: url(../Img/cielo.jpg);
+  background-attachment: fixed;
+}
+
+header .logo {
+  background-color: #1f87c4;
+}
+
+.menu ul li:hover {
+  background-color: #1f87c4;
+}
+.button-more {
+  background-color: #1f87c4;
+}
+.nombre {
+  border-bottom: 3px solid #1f87c4;
+}
+.ui-state-active {
+  background: #1f87c4;
+  border: 1px solid #1a70a1;
+}
+.ui-state-active:focus,
+.ui-state-active:active {
+  outline: none;
+  border: 1px solid #1a70a1;
+}
