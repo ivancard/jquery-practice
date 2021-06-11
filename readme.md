@@ -12,3 +12,5 @@
 ## Inicio de sesión
 
 - Formulario de inicio de sesión ficticio que permanece logeado hasta cerrar sesión (se almacena en el LocalStorage).
+
+## Podes probarla [acá.](https://ivancard.github.io/jquery-practice/)
